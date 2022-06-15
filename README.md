@@ -1,1 +1,1 @@
-# Curso-Pr-ctico-de-Maquetaci-n-en-CSS
+# Curso Practico de Maquetacion en CSS
