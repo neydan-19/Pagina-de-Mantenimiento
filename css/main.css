@@ -1,3 +1,4 @@
+/* CAMBIOS GLOBALES */
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +14,9 @@ a {
     display: inline;
     color: black;
 }
+/* CAMBIOS GLOBALES */
 
+/* HEADER */
 header {
     width: 100%;
     height: 140px;
@@ -42,3 +45,31 @@ header .header-icons-container .icons {
 header .icons span {
     color: white;
 }
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+/* HEADER */
