@@ -73,3 +73,38 @@ nav .profile-link a {
     border-bottom: 1px solid black;
 }
 /* HEADER */
+
+/* MAIN */
+.home-main {
+    height: calc(100% - 140px);
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    background-image: url(../assets/img/Cover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.home-main-text {
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+}
+
+.home-main section .home-main-button {
+    background-color: #47cfac;
+    padding: 8px;
+    align-self: center;
+    font-weight: bolder;
+}
+/* MAIN */
