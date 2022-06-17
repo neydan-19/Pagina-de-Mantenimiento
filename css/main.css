@@ -1,4 +1,6 @@
 /* CAMBIOS GLOBALES */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    font-family: 'Roboto mono', monospace;
 }
 
 a {
@@ -94,6 +97,7 @@ nav .profile-link a {
 }
 
 .home-main-text {
+    font-family: 'Roboto mono', monospace;
     font-size: 30px;
     font-weight: bolder;
     letter-spacing: 10px;
@@ -104,7 +108,7 @@ nav .profile-link a {
 .home-main section .home-main-button {
     background-color: #47cfac;
     padding: 8px;
-    align-self: center;
+    align-self: flex-start;
     font-weight: bolder;
 }
 /* MAIN */
