@@ -82,7 +82,7 @@ nav .profile-link a {
 
 /* MAIN INDEX.HTML */
 .home-main {
-    height: calc(100% - 140px);
+    height: calc(100vh - 140px);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     background-image: url(../assets/img/Cover.png);
@@ -157,4 +157,40 @@ nav .profile-link a {
     padding-bottom: 20px;
     text-align: center;
 }
+
+.blog-button {
+    border: 1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.blog-posts-container .post-container {
+    display: inline-block;
+    padding-left: 15px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blog-posts-container .post-container p {
+    margin-bottom: 35px;
+}
+
+.blog-posts-container .post-container img {
+    width: 100%;
+}
 /* MAIN BLOG.HTML */
+
+/* FOOTER BLOG.HTML */
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+    border-top: 35px solid #47cfac;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin-top: 30px;
+}
+/* FOOTER BLOG.HTML */
