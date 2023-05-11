@@ -110,12 +110,12 @@ nav .profile-link a {
     font-size: 30px;
     font-weight: bolder;
     letter-spacing: 10px;
-    color: white;
+    color: #00ff0d;
     text-align: center;
 }
 
 .home-main section .home-main-button {
-    background-color: #ff0000;
+    background-color: #a0ff00;
     padding: 8px;
     align-self: flex-start;
     font-weight: bolder;
