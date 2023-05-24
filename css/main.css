@@ -87,7 +87,7 @@ nav .profile-link a {
 
 /* MAIN INDEX.HTML */
 .home-main {
-    height: calc(100vh - 140px);
+    height: calc(110vh - 140px);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     background-image: url(../assets/img/img-index.jpg);
@@ -261,7 +261,7 @@ footer p {
 }
 
 .profile-main-container img {
-    width: 520px;
+    width: 550px;
     margin-right: 30px;
 }
 
